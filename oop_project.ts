@@ -63,4 +63,4 @@ if(askForPersonality.Personality==="UNKNOWN"){
 
 
 let a = new people(askForName.name,askForAge.age,askForPersonality.Personality)
-console.log(a.getPersonality())
+a.getPersonality()
